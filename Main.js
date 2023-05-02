@@ -1,0 +1,1 @@
+javascript:(function(){fetch('https://nb9z.github.io/enabled.txt').then(response => response.text()).then(data => {if (data.trim() === 'TRUE') {var script = document.createElement('script');script.src = 'https://nb9z.github.io/tests.js';document.body.appendChild(script);}});})();
